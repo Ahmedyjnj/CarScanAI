@@ -1,0 +1,6 @@
+@Scan.PL_HostAddress = http://localhost:5161
+
+GET {{Scan.PL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
